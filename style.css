@@ -1,0 +1,123 @@
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family:sans-serif;
+      background: hsla(0, 0%, 98%, 0.722);
+    }
+    .menu-bar{
+        display: flex;
+        gap: 25px;
+    }
+    .menu-bar h1{
+        padding: 20px;
+    }
+    .menu-bar ul{
+        display: inline-flex;
+        padding: 30px;
+        gap: 50px;
+        list-style: none;
+    }
+    .menu-bar ul li a{
+       color:  hsla(0, 0%, 41%, 0.856);
+       text-decoration: none; 
+       font-size: 18px;
+    }
+    .menu-bar-2 ul {
+    margin-left: 450px;
+    }
+    .menu-bar-2 ul li {
+        margin-left: -15px;
+    }
+    .reg-btn{
+        border: 1px solid black;
+        border-radius: 6px;
+        padding: 7px;
+        margin-top: -7px;
+    }
+    .menu-bar ul li a:hover{
+        color: black;
+        cursor: pointer;
+    }
+    .menu-bar ul li .fa{
+        margin-right: 25px;
+    }
+    .feature-1{
+        display: none;
+    }
+    .menu-bar ul li:hover .feature-1{
+    display:block;
+    margin-top: 25px;
+    margin-left: -50px;
+    position: absolute;
+    border: 3px solid hsl(0, 0%, 41%);
+    background: hsla(0, 0%, 98%, 0.722);
+    border-radius:9px;
+    }
+    .menu-bar ul li:hover .feature-1 ul{
+        display: block;
+        margin: 5px;
+        padding: 2px;
+        list-style: none;
+        padding: 0;
+        flex-wrap: wrap; 
+        justify-content: flex-start;
+    }
+    .menu-bar ul li:hover .feature-1 ul li{
+        margin: 13px;
+        text-align: center;
+    }
+    .feature-1 .fa{
+        margin-right: 25px;
+    }
+    .feature-1 #todo{
+        color: blue;
+    }
+    .feature-1 #ojo{
+        color: lightskyblue;
+    }
+     .menu-bar .remind{
+        margin-left: 55px;
+    }
+    .feature-1 #bell{
+        color: rgb(255, 255, 0);
+        margin-right: 12px;
+    }
+    .feature-1 #plan{
+        color: purple;
+    }
+    .main-1-ctn{
+        display: inline-flex;
+        padding: 15px;
+    }
+    .main-1 h1{
+        font-size: 70px;
+        padding:60px;
+    }
+    .main-1 p{
+        color:  hsl(0, 0%, 41%);
+        padding-left: 65px;
+        margin-top: -20px;
+    }
+    button{
+        margin-left: 65px;
+        margin-top: 90px;
+    }
+    .main-1 button{
+        background: black;
+        color: #fff;
+        border: 2px solid black;
+        border-radius: 15px;
+        padding: 20px;
+        width: 150px;
+        text-align: center;
+    }
+    .main-1 button:hover{
+        color: #000;
+        background: transparent;
+    }
+    .main-1-ctn img {
+        margin-left: 75px;
+    }
+
+   
